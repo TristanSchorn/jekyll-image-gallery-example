@@ -1,5 +1,5 @@
 -
- title: A Very Basic Example Gallery
+ title: A Basic Example Gallery
  directory: san-francisco
  preview:
   filename: VS-2012-6088
@@ -10,7 +10,7 @@
   - VS-2012-6088-2999x1999.jpg
   thumbnail: VS-2012-6088-thumbnail.jpg
 -
- title: A More Complicated Example Gallery
+ title: A Grayscale Gallery
  directory: san-francisco
  picture_path: ghent-light-festival/part1
  preview:

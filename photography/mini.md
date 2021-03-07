@@ -7,7 +7,7 @@ support: [jquery, gallery]
 
 This example shows how to include several galleries into one page. Also notice that some captions have been set.
 
-{% include gallery-layout-enhanced.html gallery=site.data.galleries.enhanced %}
+{% include gallery-layout-mini.html gallery=site.data.galleries.mini %}
 
 This is an example gallery. All images licensed under [CC-BY-NC-SA license][license]. Check the [Git Repo][repo] for a copy of this license.
 

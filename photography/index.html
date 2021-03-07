@@ -6,17 +6,15 @@ permalink: /photography/
 
 <h1>{{ page.title }}</h1>
 
-<p>Below are example galleries with Uploadcare transformations applied. The first gallery illustrates basic usage. The second gallery illustrates grayscale.</p>
+<p>Below are example galleries with Uploadcare transformations applied.</p>
 
 {% assign count = 0 %}
 {% assign align = "left" %}
 {% for gallery in site.data.galleries.overview %}
 {% if count == 0 %}<div class="row">{% endif %}
   <div class="half-width gallery-preview {{ align }}">
-    <h1>{{ gallery.title }}</h1>
-    <a href="{{ site.url }}{{ site.baseurl }}/photography/{{ gallery.directory }}.html">
-      <img alt="{{ gallery.title }}" src="{{ site.url }}{{ site.baseurl }}/assets/photography/{% if gallery.picture_path %}{{ gallery.picture_path }}{% else %}{{ gallery.directory }}{% endif %}/{{ gallery.preview.thumbnail }}" />
-    </a>
+    <h1><a href="{{ site.url }}{{ site.baseurl }}/photography/{{ gallery.directory }}.html">{{ gallery.title }}</a></h1>
+    
   </div>
 {% if count == 1 %}</div>{% endif %}
 {% assign count = count | plus: 1 %}

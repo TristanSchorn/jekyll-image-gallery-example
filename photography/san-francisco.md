@@ -12,4 +12,4 @@ This is an example gallery. All images licensed under [CC-BY-NC-SA license][lice
 {% include gallery-layout.html gallery=site.data.galleries.san-francisco %}
 
 [license]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[repo]: https://github.com/opieters/jekyll-gallery-example
+[repo]: https://github.com/tristanschorn/jekyll-gallery-example

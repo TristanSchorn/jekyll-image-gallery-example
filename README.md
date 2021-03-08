@@ -1,4 +1,4 @@
-# A Jekyll Image Gallery
+# A Jekyll Image Gallery, with Uploadcare image manipulations
 
 This website illustrates how to integrate a lightGallery/Isotope photo gallery into a Jekyll website. Two example galleries are included. This solution is GitHub Pages friendly and does not require a custom plugin.
 
